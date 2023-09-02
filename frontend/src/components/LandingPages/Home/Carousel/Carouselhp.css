@@ -1,6 +1,7 @@
 .carousel-home{
 	width: 100vw;
-	position: absolute;
+	position: fixed;
+	/* position: absolute; */
 top: 0px;
 	left: 0px;
 	opacity: 1;

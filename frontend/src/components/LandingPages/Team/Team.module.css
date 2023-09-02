@@ -22,10 +22,10 @@
 
 .ftco-section {
   /* background: url(../../../assets/bg/bg_football.jpg) fixed center center/cover; */
-  background: url(/src/components/LandingPages/Home/Images/bg.webp) fixed center center/cover;
   padding: 4em 0;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
+
 }
 
 .subheading {
