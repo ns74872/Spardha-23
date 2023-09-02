@@ -15,14 +15,17 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   color: #6db549;
+  /* color: hsl(98, 29%, 95%); */
   text-align: center !important;
   font-weight: bolder;
 }
 
 .ftco-section {
-  background: url(../../../assets/bg/bg_football.jpg) fixed center center/cover;
+  /* background: url(../../../assets/bg/bg_football.jpg) fixed center center/cover; */
+  background: url(/src/components/LandingPages/Home/Images/bg.webp) fixed center center/cover;
   padding: 4em 0;
   position: relative;
+  /* overflow: hidden; */
 }
 
 .subheading {
@@ -39,7 +42,9 @@
 .team-heading {
   font-family: 'League Spartan';
   font-weight: bolder;
-  color: #6db549;
+  /* color: #6db549; */
+  color: white;
+
   font-size: 30px;
   padding-top: 55px;
 }
