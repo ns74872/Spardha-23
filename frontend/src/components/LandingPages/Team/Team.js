@@ -8,7 +8,7 @@ import Carousel from '../Home/Carousel/Carouselhp';
 
 function Team() {
   return (
-  <>
+  <>    
  <div className='bg'>
           <Carousel />
         </div>
