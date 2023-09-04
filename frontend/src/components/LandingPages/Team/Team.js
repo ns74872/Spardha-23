@@ -3,9 +3,18 @@ import { Col, Container, Row } from 'reactstrap';
 import Member from './Member/Member';
 import styles from './Team.module.css';
 import team from './team.json';
+import Carousel from '../Home/Carousel/Carouselhp';
+
 
 function Team() {
   return (
+
+    <>
+    <div className='bg'>
+          
+    <Carousel />
+  </div>
+
     <section id="team" className={styles['ftco-section']}>
       <Container>
         <Row className="justify-content-center mb-5">
@@ -233,6 +242,7 @@ function Team() {
         </Row> */}
       </Container>
     </section>
+    </>
   );
 }
 
