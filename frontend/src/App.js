@@ -95,7 +95,7 @@ function App() {
           }
         >
            <Route
-            path="/HomePage"
+            path="/"
             element={
               <Suspense fallback={<Spinner />}>
                 <HomePage />
