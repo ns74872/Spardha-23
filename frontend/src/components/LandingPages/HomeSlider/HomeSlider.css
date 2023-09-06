@@ -372,7 +372,7 @@
 }
 
 .home-button {
-  float: right;
+  /* float: right; */
   height: 55px;
   width: 260px;
   padding-top: 13.5px;
@@ -403,7 +403,7 @@ a.home-button:hover {
 }
 
 .home-button1 {
-  float: left;
+  /* float: left; */
   height: 55px;
   width: 260px;
   padding-top: 13.5px;
@@ -516,11 +516,11 @@ a.home-button1:hover {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .spardha-21 {
-    font-size: calc(50px + (55 - 40) * ((100vw - 300px) / (1600 - 300))) !important;
+    font-size: calc(50px + (55 - 40) * ((calc(100vw - 16px) - 300px) / (1600 - 300))) !important;
   }
 
   .home-spardha-subheading {
-    font-size: calc(25px + (25 - 18) * ((100vw - 300px) / (1600 - 300))) !important;
+    font-size: calc(25px + (25 - 18) * ((calc(100vw - 16px) - 300px) / (1600 - 300))) !important;
   }
 
   /* .container-wrap {

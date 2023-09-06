@@ -1,5 +1,5 @@
 .ftco_section {
-  padding: 7em 0;
+  padding: 2em 0;
   position: relative;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .events {
-  background-image: url('./../../../assets/bg/bg_events.jpg');
+  background-image: linear-gradient(to right, red, blue);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

@@ -1,17 +1,20 @@
 body {
+
 	height: 30vh;
-	margin-top: 5vh;
+	/* margin-top: 5vh; */
 
     width: 100vw;
+
   
 }
 
 .container-home {
+	padding-top: 10vh;
 	display: flex;
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
+	width: calc(100vw - var(--width_sc));
 	height: 67vh;
 
 }
@@ -22,27 +25,28 @@ body {
 	flex-direction: column;
 	color: white;
 	text-align: center;
-	width: 50vw;
-	height: 60vh;
+	width: 52vw;
+	height: 55vh;
 	justify-content: center;
 	align-items: center;
-	margin-left: 11vw;
+	margin-left: 10vw;
 }
 
 .right-box {
-	width: 30vw;
-	height: 60vh;
-	margin-right: 30vh;
+	width: 32vw;
+	height: 55vh;
+	margin-right: 8vw;
 }
 
 .heading1 {
 	font-family: "Kanit", sans-serif;
-	font-size: 8vh;
+	font-size: 12vh;
+
 	justify-content: center;
 }
 
 .description {
-	font-size: 2vh;
+	font-size: 2.5vh;
 }
 
 .button-container {
@@ -61,7 +65,7 @@ body {
 .btn1 {
 	font-weight: bolder;
 	padding: 1vh 3vw;
-	font-size: 2.5vh;
+	font-size: 2.8vh;
 	border: 1px solid white;
 	border-radius: 5px;
 	background: none;
@@ -78,7 +82,7 @@ body {
 .btn2 {
 	font-weight: bolder;
 	padding: 1vh 3vw;
-	font-size: 2.5vh;
+	font-size: 2.8vh;
 	border: none;
 	border-radius: 5px;
 	background: red;
@@ -94,6 +98,8 @@ body {
 
 .card {
 	height: 25vh;
+	padding: 0px;
+	border: none;
 }
 
 .cdate {
@@ -109,6 +115,7 @@ body {
 
 .ctext {
 	font-size: 2.5vh;
+	margin: 0px;
 	height: 30%;
 	display: flex;
 	flex-wrap: wrap;
@@ -119,6 +126,12 @@ body {
 	font-weight: 600;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@media (max-width:1530px) and (min-width:950px){
+	.heading1 {
+		font-size: 5.7vw;
+	
+	}
 }
 
 @media (max-width: 950px) and (min-width:750px) {
@@ -167,7 +180,7 @@ margin: 0px;
 		justify-content: center;
 		align-items: center;
 		font-size: 2vh;
-		padding: 0.5vh;
+		padding: 0.2vh;
 	}
 
 	.cdate {
@@ -181,7 +194,7 @@ margin: 0px;
 
 	.btn1,
 	.btn2 {
-		font-size: 2.5vh;
+		font-size: 2.8vh;
 	}
 }
 @media (max-width: 750px)  {
@@ -192,7 +205,7 @@ margin: 0px;
 	}
 
 	.heading1 {
-		font-size: 4.5vh;
+		font-size: 5vh;
 		margin: 5vh 0vw;
 	}
 
@@ -217,6 +230,10 @@ margin: 0px;
 	.right-box {
 		height: 17vh;
 margin: 0px;
+	width: 35vw;
+
+
+
 	}
 
 	.card {
@@ -230,7 +247,8 @@ margin: 0px;
 		justify-content: center;
 		align-items: center;
 		font-size: 2vh;
-		padding: 0.5vh;
+		padding: 0.2vh;
+		text-align: center;
 	}
 
 	.cdate {
@@ -244,6 +262,6 @@ margin: 0px;
 
 	.btn1,
 	.btn2 {
-		font-size: 2vh;
+		font-size: 2.5vh;
 	}
 }

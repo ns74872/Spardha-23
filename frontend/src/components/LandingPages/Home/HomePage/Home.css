@@ -1,11 +1,8 @@
 .sctn {
-	width: 100vw;
+	width: calc(100vw - var(--width_sc));
 	display: flex;
 	height: 95vh;
-	margin: 0px;
-	background-image: linear-gradient(to right, red, blue);
-	background-size: 100vw;
-	background:cover;
+
 
 }
 
@@ -13,6 +10,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	 
 
 	
 }

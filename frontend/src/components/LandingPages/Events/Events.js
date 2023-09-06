@@ -23,6 +23,7 @@ import volleyball from './volleyball.png';
 import weightlifting from './weightlifting.png';
 import styles from './Events.module.css';
 import { Link } from 'react-router-dom';
+import Carousel from '../Home/Carousel/Carouselhp';
 import {
   // Aqautics,
   Athletics,
@@ -470,6 +471,9 @@ const Events = () => {
 
   return (
     <section id="events" className={`${styles.ftco_section} ${styles.events}`}>
+      <div className='bg'>
+        <Carousel />
+      </div>
       <div className={`${styles.container} ${styles.pb_1}`}>
         <div
           className={`${styles.row} ${styles.justify_content_center} ${styles.mb_5}`}

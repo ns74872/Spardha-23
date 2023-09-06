@@ -3,7 +3,8 @@ import React from 'react';
 import './Home.css';
 import Mid from '../MiddleSection/MiddleSection';
 import Carousel from '../Carousel/Carouselhp';
-import Foot from '../HomeBottom/HomeBottom';
+/*import Foot from '../HomeBottom/HomeBottom';*/
+import CountdownTimer from '../Countdown/Countdown';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
             <Mid />
           </div>
           <div>
-            <Foot />
+            {/*<Foot />*/}
+            <CountdownTimer/>
           </div>
         </div>
       </div>

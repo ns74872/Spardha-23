@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+:root{
+
+  --width_sc:17px;
+}
+@media (pointer: coarse) {
+  :root{
+
+    --width_sc:0px;
+  }
 }
 
 code {
